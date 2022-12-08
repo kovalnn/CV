@@ -5,65 +5,84 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nik CV</title>
+    <link rel="stylesheet" href="css/mainp.css">
 </head>
 <body>
-    <img src="https://gostandup.ru/uploads/files/standupclub1/koval.png" alt="" width="200">
-    <h1>Коваль Николай</h1>
-    <p><em>Я инженер отдела поддержки пользователей <strong>ПАО Ростелеком.</strong></em></p>
-    <p>Я люблю заниматься спортом и программировать.</p>
-    <hr>
-    <h2>Мои социальные сети</h2>
-    <ul>
-        <li><a href="https://discord.gg/fHJeRK6J" target="_blank">Discord</a></li>
-        <li></li>
-    </ul>
-    <hr>
-    <h2>Мои хобби</h2>
-    <ol type="I">
-        <li>Баскетбол</li>
-        <li>настольный тенис</li>
-    </ol>
-    <hr>
-    <h2>Опыт работы</h2>
-    <table>
-        <thead>
-            <tr>
-            <th>Компания</th>
-            <th>Должность</th>
-            <th>год</th>
-        </tr>
-        </thead>
-        <tbody>
-            <tr>
-            <td>ПАО Ростелеком</td>
-            <td>Инженер</td>
-            <td>2008-2020</td>
-        </tr>
-        <tr>
-            <td>ПАО Ростелеком</td>
-            <td>Ведущий Инженер</td>
-            <td>2020-2022</td>
-        </tr>
-        </tbody>
-        <tfoot></tfoot>
-    </table>
-    <hr>
-    <h2>Курсы Youtube</h2>
-    <a href="youtube.html" target="_blank">Посмотреть список</a>
-    <hr>
-    <h2>Связаться ос мной</h2>
-    <form action="/">
-        <label for="name">Ваше имя:</label>
-        <input type="text" id="name" placeholder="Введите имя">
-        <br>
-        <label for="email">Ваше Email:</label>
-        <input type="text" id="email" placeholder="Введите почту">
-        <br>
-        <label for="text">Ваше сообщение:</label>
-        <br>
-        <textarea name="" id="text" cols="15" rows="3"></textarea>
-        <br>
-        <input type="submit" value="Связаться" name="" id="">
-    </form>
+    <div class="container">
+        <div class="info">
+            <img src="images/nik.jpg" alt="" class="avatar">
+            <div class="info-text">
+                <h1>Коваль Николай</h1>
+                <p>Я инженер отдела поддержки пользователей <strong>ПАО Ростелеком.</strong></p>
+                <p>Я люблю заниматься спортом и программировать.</p>
+                <h4>Мои социальные сети</h4>
+                <a href="https://discord.gg/fHJeRK6J" target="_blank">Discord</a>
+                |
+                <a href="https://discord.gg/fHJeRK6J" target="_blank">Discord</a>
+            </div>
+        </div>
+        <div class="card bg-yellow">
+            <h2>Мои хобби</h2>
+            <ol class="list" type="I">
+                <li>Баскетбол</li>
+                <li>настольный тенис</li>
+            </ol>
+        </div>
+        <div class="card bg-green">
+            <h2>Опыт работы</h2>
+            <table class="table">
+                <tr>
+                    <td>ПАО Ростелеком</td>
+                    <td>Инженер - электроник</td>
+                    <td>2008-2015</td>
+                </tr>
+                <tr>
+                    <td>ПАО Ростелеком</td>
+                    <td>Инженер</td>
+                    <td>2015-2020</td>
+                </tr>
+                <tr>
+                    <td>ПАО Ростелеком</td>
+                    <td>Ведущий Инженер</td>
+                    <td>2020-2022</td>
+                </tr>
+                <tfoot></tfoot>
+            </table>
+        </div>
+        <div class="card bg-red">
+            <h2>Курсы Youtube</h2>
+            <ul class="link-list">
+                <li> 
+                    <a target="_blank">Посмотреть список</a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com">Просто видео</a>
+                </li>
+            </ul >
+        </div>
+        <div class="contact">
+            <h2>Связаться ос мной</h2>
+            <form action="/">
+                <div class="row">
+                    <div class="form-group">
+                        <label for="name">Ваше имя:</label>
+                        <input type="text" id="name" placeholder="Введите имя">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Ваш email:</label>
+                        <input type="text" id="email" placeholder="Введите почту">
+                    </div>
+                 </div>   
+                    <div class="form-group">
+                        <textarea name="" id="text" cols="15" rows="3"></textarea>
+                    </div>
+                <input class="btn" type="submit" value="Связаться" name="">
+            </form>
+        </div>
+
+        <div class="position">
+            <div class="box"></div>
+        </div>
+    </div>
 </body>
 </html>
